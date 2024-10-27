@@ -4,19 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>WEBSITEBAND</title>
 </head>
 
 <body>
     <header>
-        <h1>BANDNAME</h1>
-        <nav>
-            <ul>
-                <li><a href="#">SECTION1</a></li>
-                <li><a href="#">SECTION2</a></li>
-                <li><a href="#">SECTION3</a></li>
-            </ul>
-        </nav>
+        <!-- The bandname, sections and dropdown button on the same row -->
+        <div class="header">
+            <h1>BANDNAME</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">SECTION1</a></li>
+                    <li><a href="#">SECTION2</a></li>
+                    <li><a href="#">SECTION3</a></li>
+                </ul>
+            </nav>
+            <!-- Dropdown button for other pages -->
+            <div class="dropdown">
+                <button class="dropbtn">Look here!</button>
+                <div class="dropdown-content">
+                    <a href="">Page 1</a>
+                    <a href="">Page 2</a>
+                </div>
+            </div>
+        </div>
     </header>
     <section>
         <h2>BANDMEMBERS</h2>
