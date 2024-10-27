@@ -1,3 +1,13 @@
+body{
+    text-align: center;
+    
+}
+header{
+    margin:5px;
+    padding:10px;
+    border:1px solid rgb(10, 10, 10);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+}
 ul {
     list-style-type: none;
 
@@ -11,11 +21,19 @@ li {
 a {
     text-decoration: none;
     font-variant: small-caps;
+    color:black;
 }
 
 a:hover {
     font-size: 120%;
     transition: ease-in-out;
+}
+
+.container{
+    margin:5%;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
 }
 
 .header {
@@ -24,7 +42,7 @@ a:hover {
 }
 
 .dropbtn {
-    background: black;
+    background: rgba(0, 0, 0, 0.486);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -35,8 +53,9 @@ a:hover {
 }
 
 .dropdown {
-    position: relative;
+    position:relative;
     display: inline-block;
+
 }
 
 .dropdown-content {
