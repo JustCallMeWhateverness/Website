@@ -1,13 +1,15 @@
 body {
     text-align: center;
-
+    background: linear-gradient(to bottom, #006699 0%, #990000 100%);
+    background-attachment: fixed;
 }
 
 header {
     margin: 5px;
     padding: 10px;
     border: 1px solid rgb(10, 10, 10);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, #0066997e 0%, #990000e3 100%);
 }
 
 ul {
@@ -93,7 +95,7 @@ td {
     margin: 5%;
     border: 1px solid rgb(10, 10, 10);
     border-radius: 10%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -102,7 +104,7 @@ td {
 }
 
 .dropbtn {
-    background: rgba(0, 0, 0, 0.486);
+    background: #01090e3d;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -123,7 +125,7 @@ td {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #7661a19a;
+    background-color: #99000067;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10%;
@@ -141,7 +143,7 @@ td {
 }
 
 .dropdown-content a:hover {
-    background-color: #71dad56c;
+    background-color: #00669960;
     border-radius: 10%;
 }
 
