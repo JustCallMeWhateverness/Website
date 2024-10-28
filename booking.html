@@ -25,38 +25,30 @@
             <div class="dropdown">
                 <button class="dropbtn">Look here!</button>
                 <div class="dropdown-content">
-                    <a href="booking.html">Book us</a>
+                    <a href="index.html">Home</a>
                     <a href="">Page 2</a>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section id="intro">
-            <div class="container">
-                <h2>INTRO</h2>
-                <p>BAND INFORMATION</p>
-            </div>
-        </section>
-        <section id="members">
-            <div class="container">
-                <h2>BANDMEMBERS</h2>
-                <p>MEMBER1</p>
-                <p>MEMBER2</p>
-                <p>MEMBER3</p>
-                <p>MEMBER4</p>
-            </div>
-        </section>
-        <section id="releases">
-            <div class="container">
-                <h2>RELEASES</h2>
-            </div>
-        </section>
-        <section id="highlights">
-            <div class="container">
-                <h2>HIGHLIGHTS</h2>
-            </div>
-        </section>
+
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Tel:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="msg">Other:</label>
+            <textarea id="msg" name="msg"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+
     </main>
     <footer>
     </footer>
