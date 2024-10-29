@@ -2,24 +2,16 @@ body {
     text-align: center;
     background: linear-gradient(to bottom, #006699 0%, #990000 100%);
     background-attachment: fixed;
+    font-variant: small-caps;
+    font-size: large;
 }
 
 header {
     margin: 5px;
     padding: 10px;
-    border: 1px solid rgb(10, 10, 10);
+    border: 2px solid rgb(10, 10, 10);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to top, #0066997e 0%, #990000e3 100%);
-}
-
-ul {
-    list-style-type: none;
-
-}
-
-li {
-    float: left;
-    margin: 20px;
+    background: linear-gradient(to bottom, #2178a362 0%, #99000088 100%);
 }
 
 a {
@@ -32,6 +24,11 @@ a:hover {
     font-size: 120%;
     transition: ease-in-out;
 }
+
+hr {
+    border: 1px solid black;
+}
+
 
 form {
     display: inline-block;
@@ -89,13 +86,32 @@ td {
     font-variant: small-caps;
 }
 
+.listsection li {
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+}
 
+.listmember {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.listmember ul {
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 20px;
+    padding: 20px;
+}
 
 .container {
-    margin: 5%;
-    border: 1px solid rgb(10, 10, 10);
+    margin: 10%;
+    padding: 10px;
+    border: 2px solid rgb(10, 10, 10);
     border-radius: 10%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: #989ea167;
 }
 
 .header {
