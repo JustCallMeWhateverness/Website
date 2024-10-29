@@ -6,7 +6,7 @@ body {
     font-size: large;
 }
 
-header {
+header, footer {
     margin: 5px;
     padding: 10px;
     border: 2px solid rgb(10, 10, 10);
@@ -121,7 +121,7 @@ td {
 }
 
 .container {
-    margin: 10%;
+    margin: 5%;
     padding: 10px;
     border: 2px solid rgb(10, 10, 10);
     border-radius: 10%;
@@ -129,12 +129,12 @@ td {
     background: #989ea167;
 }
 
-.header {
+.header, .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.dropbtn {
+.dropbtn, .topbtn{
     background: transparent;
     color: rgb(0, 0, 0);
     padding: 17px;
