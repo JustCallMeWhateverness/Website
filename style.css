@@ -15,8 +15,6 @@ footer {
     background: linear-gradient(to bottom, #2178a362 0%, #99000088 100%);
 }
 
-
-
 a {
     text-decoration: none;
     font-variant: small-caps;
@@ -116,14 +114,6 @@ td {
     margin: 10px;
 }
 
-.bcontainer {
-    margin: 50px;
-    padding: 50px;
-    border: 2px solid black;
-    border-radius: 20%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
 .listband,
 .listsection {
     list-style-position: inside;
@@ -142,8 +132,6 @@ td {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .container {
     margin: 5%;
     padding: 10px;
@@ -153,6 +141,13 @@ td {
     background: #989ea167;
 }
 
+.bcontainer {
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
 
 .header,
 .footer {
@@ -167,11 +162,11 @@ td {
 
 .dropbtn,
 .topbtn {
-    background: transparent;
+    background: #9900003f;
     color: rgb(0, 0, 0);
     padding: 17px;
     font-size: 16px;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -195,8 +190,6 @@ td {
     border-radius: 10%;
     padding: 12 px 16px;
     z-index: 1;
-
-
 }
 
 .dropdown-content a {
