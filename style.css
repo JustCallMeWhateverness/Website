@@ -29,7 +29,14 @@ a:hover {
 
 hr {
     border: 1px solid black;
+}
 
+h1 {
+    border: 2px solid black;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: #9900003f;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
 }
 
 form {
@@ -102,16 +109,19 @@ td {
     background-color: #bebbbbb0;
 }
 
-
 .listsection li {
     list-style-type: none;
     float: left;
     margin: 10px;
 }
 
-.listband {
-    list-style-type: upper-roman;
+.listband,
+.listsection {
     list-style-position: inside;
+}
+
+.listband ol {
+    list-style-type: none;
 }
 
 .listband ul {
@@ -139,7 +149,6 @@ td {
 .footer {
     display: flex;
     justify-content: space-around;
-
 }
 
 .footer {
@@ -155,7 +164,8 @@ td {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
 }
